@@ -1,0 +1,122 @@
+
+  /* Page Background */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 50px;
+      color: #110b61;
+    }
+
+    /*  Container */
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      text-align: center;
+      color: #160b33;
+      margin-bottom: 20px;
+    }
+
+    /* Inputs */
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    input {
+      flex: 1;
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+
+    input:focus {
+      border-color: #6a11cb;
+      box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+      outline: none;
+    }
+
+    input:focus::placeholder {
+      color: transparent;
+      transition: color 0.3s ease;
+    }
+
+    #search {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      
+    }
+
+    #search:focus {
+      border-color: #2575fc;
+      box-shadow: 0 0 8px rgba(37, 117, 252, 0.3);
+      outline: none;
+    }
+
+    /* Buttons */
+    button {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+      font-size: 15px;
+      cursor: pointer;
+     
+    }
+
+    button:hover {
+      transform: scale(1.07);
+      box-shadow: 0 5px 15px rgba(106, 17, 203, 0.4);
+    }
+
+    /*  Contact List */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      background: #f1f3f6;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+     
+    }
+
+    li button {
+      margin-left: 5px;
+      background: linear-gradient(90deg, #ff6a00, #ee0979);
+      padding: 6px 10px;
+      font-size: 13px;
+      border-radius: 8px;
+    }
+
+    li button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 3px 10px rgba(238, 9, 121, 0.4);
+    }
+
+    
